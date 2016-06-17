@@ -1,0 +1,38 @@
+/*------------  ( Pricing Tables )  ------------*/
+
+.pricing-table-column .pricing-table-head, .pricing-table-column .pricing-table-content {
+	background-color: white;
+}
+
+.pricing-table-column .pricing-table-head .title-box  {
+	color: #666;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 16px;
+	display: inline-block;
+}
+
+.pricing-table-column .pricing-table-head .pricing-box {
+	color: #666;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+.pricing-table-column .pricing-table-head .pricing-box .price {
+	font-size: 60px;
+	line-height: normal;
+	position: relative;
+	letter-spacing: -2px;
+	border-bottom: 1px solid #444;
+}
+
+.pricing-table-column.special-price-table .pricing-table-head, .pricing-table-column.special-price-table .pricing-table-content {
+	background-color: #F8F8FF;
+}
+
+.pricing-table-column.special-price-table .pricing-table-head .title-box h5 {
+	color: #666;
+}
+
+/*------------  (Caldera form)  ------------*/
+.caldera-grid .form-control {background-color: transparent;}
